@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		97BE09BA288F0ABE00691660 /* ImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		97BE09BA288F0ABE00691660 /* ReadQrByImagePickerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ReadQrByImagePickerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		97BE09BD288F0ABE00691660 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		97BE09BF288F0ABE00691660 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		97BE09C1288F0ABE00691660 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -48,7 +48,7 @@
 		97BE09BB288F0ABE00691660 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				97BE09BA288F0ABE00691660 /* ImagePickerDemo.app */,
+				97BE09BA288F0ABE00691660 /* ReadQrByImagePickerDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -70,9 +70,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		97BE09B9288F0ABE00691660 /* ImagePickerDemo */ = {
+		97BE09B9288F0ABE00691660 /* ReadQrByImagePickerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97BE09CE288F0AC200691660 /* Build configuration list for PBXNativeTarget "ImagePickerDemo" */;
+			buildConfigurationList = 97BE09CE288F0AC200691660 /* Build configuration list for PBXNativeTarget "ReadQrByImagePickerDemo" */;
 			buildPhases = (
 				97BE09B6288F0ABE00691660 /* Sources */,
 				97BE09B7288F0ABE00691660 /* Frameworks */,
@@ -82,9 +82,9 @@
 			);
 			dependencies = (
 			);
-			name = ImagePickerDemo;
+			name = ReadQrByImagePickerDemo;
 			productName = ImagePickerDemo;
-			productReference = 97BE09BA288F0ABE00691660 /* ImagePickerDemo.app */;
+			productReference = 97BE09BA288F0ABE00691660 /* ReadQrByImagePickerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -102,7 +102,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 97BE09B5288F0ABE00691660 /* Build configuration list for PBXProject "ImagePickerDemo" */;
+			buildConfigurationList = 97BE09B5288F0ABE00691660 /* Build configuration list for PBXProject "ReadQrByImagePickerDemo" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -115,7 +115,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				97BE09B9288F0ABE00691660 /* ImagePickerDemo */,
+				97BE09B9288F0ABE00691660 /* ReadQrByImagePickerDemo */,
 			);
 		};
 /* End PBXProject section */
@@ -289,8 +289,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E443GH277D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to import photo for register user and qr reader.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -301,7 +303,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shein.ImagePickerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shein.ReadQrByImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -316,8 +318,10 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = E443GH277D;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = ImagePickerDemo/Info.plist;
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "We need to import photo for register user and qr reader.";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -328,7 +332,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.shein.ImagePickerDemo;
+				PRODUCT_BUNDLE_IDENTIFIER = com.shein.ReadQrByImagePickerDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -339,7 +343,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		97BE09B5288F0ABE00691660 /* Build configuration list for PBXProject "ImagePickerDemo" */ = {
+		97BE09B5288F0ABE00691660 /* Build configuration list for PBXProject "ReadQrByImagePickerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97BE09CC288F0AC200691660 /* Debug */,
@@ -348,7 +352,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97BE09CE288F0AC200691660 /* Build configuration list for PBXNativeTarget "ImagePickerDemo" */ = {
+		97BE09CE288F0AC200691660 /* Build configuration list for PBXNativeTarget "ReadQrByImagePickerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				97BE09CF288F0AC200691660 /* Debug */,
